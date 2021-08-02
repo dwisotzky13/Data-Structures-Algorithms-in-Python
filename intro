@@ -1,5 +1,5 @@
 
-  
+
 # Write a function called "show_excitement" where the string
 # "I am super excited for this course!" is returned exactly
 # 5 times, where each sentence is separated by a single space.
@@ -12,6 +12,6 @@ def show_excitement():
     # Your code goes here!
     here = ''
     for i in range(5):
-        here += "I am super excited for this course! "
+        here += "I am super excited for this course!\n"
     return here[:-1]
-print show_excitement()s
+print show_excitement()
